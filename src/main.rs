@@ -4,7 +4,6 @@
 
 use rocket_contrib::serve::StaticFiles;
 use clap::Parser;
-use std::process::Command;
 
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
@@ -18,7 +17,10 @@ struct Args {
 
 
 fn main() {
+
+    let args = Args::parse();
+
     rocket::ignite()
-        .mount("/files", StaticFiles::from(&args.path))
+        .mount("/files", StaticFiles::from(args.path))
         .launch();
 }
