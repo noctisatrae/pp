@@ -1,6 +1,6 @@
 [package]
 name = "ppfs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 readme = "README.md"
 description = "Pipe is a tool allowing you to easily create a fast file server."
