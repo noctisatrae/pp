@@ -1,13 +1,13 @@
 [package]
 name = "ppfs"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-readme = "README.md"
+readme = "./README.md"
 description = "Pipe is a tool allowing you to easily create a fast file server."
 homepage = "https://github.com/noctisatrae/pp"
 repository = "https://github.com/rust-lang/cargo/"
 license = "MIT OR Apache-2.0"
-categories = ["command-line-utilities", "fileserver"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
