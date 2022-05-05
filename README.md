@@ -3,12 +3,12 @@ Pipe is a tool allowing you to easily create a fast file server.
 
 ## Usage
 ```
-./pp --path <path> --port <port>
+ppfs --path <path> --port <port>
 ```
 
 For instance:
 ```
-./pp --path $(pwd)/<folder in the current directory> --port 8080
+ppfs --path $(pwd)/<folder in the current directory> --port 8080
 ```
 
 ## Install 
