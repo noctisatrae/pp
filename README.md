@@ -10,3 +10,6 @@ For instance:
 ```
 ./pp --path $(pwd)/<folder in the current directory> --port 8080
 ```
+
+## Install 
+Just type `cargo install ppfs` to install and get started !
